@@ -57,31 +57,35 @@ section article#item2{
     background-image: url('../imagens/imagem1.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center center;
+    background-position: right center;
     background-size: cover;
     padding-top: 10vh;
     padding-bottom: 10vh;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.6);
 }
 section article#item2 p{
     background-color: rgba(0, 0, 0, 0.4);
     color: white;
     display:inline-block;
-    padding: 5px;
+    padding: 10px;
+    text-shadow: 1px 1px 0px rgb(255, 0, 0);
 }
 section article#item4{
     background-image: url('../imagens/imagem2.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center center;
+    background-position: right center;
     background-size: cover;
     padding-top: 10vh;
     padding-bottom: 10vh;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.6);
 }
 section article#item4 p{
     background-color: rgba(0, 0, 0, 0.4);
     color: white;
     display:inline-block;
-    padding: 5px;
+    padding: 10px;
+    text-shadow: 1px 1px 0px rgb(255, 0, 0);
 }
 footer{
     background-color: black;
