@@ -10,50 +10,47 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-size: 1em;
 }
-main{
-    height: 100vh;
-    width: 100%;
+html, body{
+    min-height: 100vh;
 }
 header{
     background-color: black;
-    max-height: 250px;
-    padding: 50px;
+    color: white;
     text-align: center;
     
 }
 header > h1{
-    color: white;
-    font-weight: bold;
+    padding-top: 50px;
     font-family: var(--fonte2);
-    margin: auto;
-    font-size: 5em;
+    font-variant: small-caps;
+    font-size: 10vw;
 }
 header > p{
-    color: white;
+    padding-bottom: 50px;
     font-family: var(--fonte1);
-    text-align: center;
-    margin: auto;
+    font-size: 1em;
 }
 header a{
     color: white;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: bolder;
 }
-header a::after{
+header a:hover{
     text-decoration: underline;
 }
-section.geral{
+section{
     font-family: var(--fonte3);
-    font-size: 3em;
-    font-weight: normal;
+    font-size: 3vw;
 }
 section p{
     margin-left: 5%;
 }
-section article#item1{
+section article#item1, article#item3, article#item5{
     background-color: white;
-
+    padding-top: 5vh;
+    padding-bottom: 10vh;
 }
 section article#item2{
     background-image: url('../imagens/imagem1.jpg');
@@ -61,15 +58,13 @@ section article#item2{
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 section article#item2 p{
     background-color: rgba(0, 0, 0, 0.4);
     color: white;
     width: 45%;
-    text-align: justify;
-}
-section article#item3{
-    background-color: white;
 }
 section article#item4{
     background-image: url('../imagens/imagem2.jpg');
@@ -77,21 +72,20 @@ section article#item4{
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 section article#item4 p{
     background-color: rgba(0, 0, 0, 0.4);
     color: white;
     width: 45%;
 }
-section article#item5{
-    background-color: white;
-}
 footer{
-    height: 50%;
-    margin: auto;
-    color: black;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
 footer p{
-    background-color: white;
     font-family: var(--fonte1);
 }
